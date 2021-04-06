@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Currency Converter</title>
+
+    <!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="currency.css" rel="stylesheet"/>
+<script type="text/javascript" src="currency.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="cover">
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<h5>CURRENCY CONVERSION FROM NAIRA<br>TO OTHER CURRENCIES</h5>
+				<form class="form-vertical" role="form">
+					<div class="form-group">
+						<label for= "naira">Naira : </label>
+						<input type= "text" class = "naira" placeholder= "Enter currency in Naira"/>
+					</div>
+					<h5>Select the Currency you want to convert to:</h5>
+					<div class = "form-group">
+						<label for = "currency">
+						<select class = "currency">
+							<option value= "">Select
+							</option>
+							<option value= "pou" >Pound
+							</option>
+							<option value= "eur">Euro
+							</option>
+							<option value= "dol">Dollar
+							</option>
+							<option value= "aud">Australian Dollar
+							</option>
+							<option value= "nzd">New Zealand Dollar
+							</option>
+							<option value= "cad">Canadian Dollar
+							</option>
+							<option value= "yen">Yen
+							</option>
+							<option value= "rup">Rupee
+							</option>
+							<option value= "swi">Swiss Franc
+							</option>
+							<option value= "dir">Dirham
+							</option>
+							<option value= "sar">South African Rand
+							</option>
+							<option value= "rur">Russian Rouble
+							</option>
+							</select>
+						</label>
+					</div>
+					<div class = "form-group">
+						<label for ="convert">
+						<button type="button" class="btn" onclick='Converter()'>Convert</button>
+						</label>
+					</div>
+					<div class = "form-group">
+						<label for="result" >Result : </label>
+						<input type="text" class = "result" />
+					</div>
+				</form>
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html> 
