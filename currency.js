@@ -8,7 +8,7 @@ if (operation == "pou"){
 else if (operation == "eur"){
 	compute = num1 / 453.46;
 }else if (operation == "dol"){
-	compute = num1 / 383;
+	compute = num1 / 774;
 }else if (operation == "aud"){
 	compute = num1 / 279.25;
 }else if (operation == "nzd"){
