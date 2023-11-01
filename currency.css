@@ -5,6 +5,8 @@ body{background-color:black;
 .cover{margin-top:150px; padding-top:100px;
 		text-align:center;color:white;
 					}
+h5{color:white;
+  }
 
 .btn{padding:8px; background:green;
 	color:white; border:0;font-size:12px;
