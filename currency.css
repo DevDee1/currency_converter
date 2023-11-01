@@ -1,8 +1,8 @@
-body{background-color: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+body{background-color:black;
 	font-family:arial;
 	}
 
-.cover{padding-top:120px;
+.cover{margin-top:150px; padding-top:100px;
 		text-align:center;
 					}
 
