@@ -28,8 +28,8 @@ else if (operation == "eur"){
 }else if (operation == "rur"){
 	compute = num1 / 15.33;
 }
-
+var compute1 = compute.toFixed(2);
 		
-document.querySelector(".result").value = compute;
+document.querySelector(".result").value = compute1;
 	
 }
